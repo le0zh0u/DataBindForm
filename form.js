@@ -45,6 +45,7 @@ userInfoModule.controller('CSSCtrl', ['$scope', function($scope) {
     $scope.color = 'red';
     $scope.setGreen = function() {
         $scope.color = 'green';
+        $scope.colorName = 'Green';
     }
 }]);
 
